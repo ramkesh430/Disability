@@ -1,0 +1,27 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "disability-id-system"
+version = "1.0.0"
+description = "Disability Identity Card Management System"
+authors = ["Ramkesh Gupta <ramkesh430@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0"
+sqlalchemy = "^2.0.23"
+pymysql = "^1.1.0"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+python-multipart = "^0.0.6"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+
+[tool.scripts]
+app = "main:app"

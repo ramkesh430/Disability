@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+
+# Upload directories (will be created on deployment)
+uploads/
+
+# Test files
+tests/
+*_test.py
+test_*.py
+
+# Documentation
+docs/
+*.md
+
+# Git
+.git/
+.gitignore
