@@ -1,0 +1,20 @@
+.masters-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.master-form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.simple-list {
+  list-style: none;
+}
+
+.simple-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}

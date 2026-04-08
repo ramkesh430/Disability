@@ -1,0 +1,16 @@
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.page-card label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.remarks-block {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

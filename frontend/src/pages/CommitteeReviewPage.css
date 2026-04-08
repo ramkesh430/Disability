@@ -1,0 +1,9 @@
+.review-panel {
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+}
+
+.green-btn {
+  background: #166534;
+}

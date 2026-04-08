@@ -1,0 +1,10 @@
+.users-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 18px;
+}
+
+.user-form {
+  display: grid;
+  gap: 12px;
+}

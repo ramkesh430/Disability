@@ -1,0 +1,12 @@
+.settings-box {
+  max-width: 760px;
+}
+
+.settings-form {
+  display: grid;
+  gap: 12px;
+}
+
+.settings-form label {
+  font-weight: 600;
+}

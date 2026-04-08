@@ -1,0 +1,24 @@
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.dash-card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  border-left: 6px solid #2563eb;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.dash-card.green { border-left-color: #16a34a; }
+.dash-card.orange { border-left-color: #f59e0b; }
+.dash-card.purple { border-left-color: #7c3aed; }
+.dash-card.red { border-left-color: #dc2626; }
+.dash-card.blue { border-left-color: #0284c7; }
+
+.dash-card h4 {
+  color: #666;
+  margin-bottom: 10px;
+}
